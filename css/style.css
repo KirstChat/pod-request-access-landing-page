@@ -80,7 +80,9 @@ body {
   border: none;
   border-radius: 1.75rem;
   display: block;
+  font-family: inherit;
   font-size: 14px;
+  font-weight: 700;
   height: 46px;
   width: 100%;
 }
@@ -124,8 +126,10 @@ body {
 }
 
 ::placeholder {
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--white);
   font-family: inherit;
+  font-weight: 700;
+  opacity: 0.5;
 }
 
 @media screen and (min-width: 768px) {
@@ -162,7 +166,7 @@ body {
     font-size: 3rem;
     line-height: 56px;
     padding-top: 5.8rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
   }
 
   .description {
@@ -174,7 +178,7 @@ body {
 
   .icons {
     order: 4;
-    padding: 3rem 0 0;
+    padding: 2.625rem 0 0;
     width: 536px;
   }
 
