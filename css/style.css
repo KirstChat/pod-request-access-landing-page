@@ -90,7 +90,6 @@ body {
   color: var(--black);
   cursor: pointer;
   font-weight: 700;
-  /* margin-top: 1rem; */
 }
 
 .form__btn:hover,
@@ -102,7 +101,6 @@ body {
   background: var(--dark-grey);
   color: var(--white);
   font-size: 14px;
-  font-weight: 700;
   padding: 0 2rem;
 }
 
@@ -117,7 +115,6 @@ body {
   color: var(--error-red);
   font-size: 12px;
   font-weight: 700;
-  opacity: 1;
   padding: 0.5rem 0;
   transition: all 0.3s ease;
 }
@@ -173,12 +170,13 @@ body {
   .description {
     font-size: 1.125rem;
     padding-bottom: 2.5rem;
+    line-height: 28px;
     width: 445px;
   }
 
   .icons {
     order: 4;
-    padding: 4rem 0 0;
+    padding: 3rem 0 0;
     width: 536px;
   }
 
@@ -231,5 +229,6 @@ body {
   .heading {
     font-size: 3.25rem;
     padding: 5.5rem 3.625rem 1.5rem 0;
+    line-height: 62px;
   }
 }
