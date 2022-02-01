@@ -162,6 +162,7 @@ body {
     flex-direction: column;
   }
 
+  /* Text */
   .heading {
     font-size: 3rem;
     line-height: 56px;
@@ -176,6 +177,7 @@ body {
     width: 445px;
   }
 
+  /* Icons */
   .icons {
     order: 4;
     padding: 2.625rem 0 0;
@@ -186,6 +188,7 @@ body {
     height: 26px;
   }
 
+  /* Form */
   .form {
     position: relative;
   }
@@ -228,6 +231,7 @@ body {
     width: 723px;
   }
 
+  /* Text */
   .heading {
     font-size: 3.25rem;
     padding: 5.5rem 3.625rem 1.5rem 0;
